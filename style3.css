@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.navbar .topnav {
+    margin-top: 5px;
+    width: 100%;
+    height: 65px;
+    background: #e8505b;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .topnav .left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .topnav .left .logo {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    font-family: monospace;
+    margin-right: 25px;
+}
+
+.navbar .topnav .left .logo span {
+    color: black;
+}
+
+.navbar .topnav .right ul {
+    display: flex;
+}
+
+.navbar .topnav .right ul li {
+    margin: 0 12px;
+}
+
+.navbar .topnav .right ul li a {
+    display: block;
+    padding: 8px 10px;
+    color: white;
+    font-weight: 500;
+}
+
+.navbar .btmnav {
+    width: 100%;
+    background: #BA4049;
+    height: 45px;
+}
+
+.navbar .btmnav .two {
+    padding-top: 9px;
+    float: right;
+    padding-right: 4.8rem;
+}
+
+.navbar .btmnav .two input {
+    border: 1px solid black;
+    padding: 5px;
+    outline: none;
+    width: 250px;
+    height: 25px;
+}
+
+.navbar .btmnav .two button {
+    color: black;
+    font-weight: 700;
+    width: 40px;
+    height: 25px;
+    border: 1px solid black;
+}
+
+.img .image {
+    width: 60rem;
+    height: 80vh;
+}
+
+.header {
+    display: flex;
+}
+
+.formbox {
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    background: #e8505b;
+    padding: 60px 45px;
+    position: absolute;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    border-radius: 20px;
+    left: 70%;
+    top: 30%;
+}
+
+.formbox .title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.formbox .form .box {
+    position: relative;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.formbox .form .box input {
+    width: 100%;
+    height: 30px;
+    padding: 12px;
+    border: none;
+    background: #eeeeee;
+}
+
+.formbox .form .btn {
+    width: 70%;
+    margin: 20px auto 0;
+    background: white;
+    text-align: center;
+    padding: 12px;
+    border-radius: 25px;
+}
+
+.formbox .form .btn a {
+    color: black;
+}
